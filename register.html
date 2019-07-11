@@ -31,16 +31,16 @@
         <label for="userName" >User Name:</label><br>
         <input type="text" id="userName" required="required" autofocus="autofocus"/><br>
         <label for="password">Password:</label><br>
-        <input type="password" id="password" /><br>
+        <input type="password" id="password" required="required" /><br>
         <label for="confirmPassword">Confirm:</label><br>
-        <input type="password" id="confirmPassword" /><br>
+        <input type="password" id="confirmPassword" required="required" /><br>
         <label for="email" >Email Address:</label><br>
-        <input type="email" id="email" /><br>
+        <input type="email" id="email" required="required" /><br>
         <aside>
             <h4>How did you hear about us?</h4>
-            <br /><input type="radio">Friend
-            <br /><input type="radio">Internet Search
-            <br /><input type="radio">Other
+            <br /><input type="radio" name="referral source" value="friend" checked >Friend
+            <br /><input type="radio" name="referral source" value="internet" >Internet Search
+            <br /><input type="radio" name="referral source" value="other" >Other
         </aside>
         <input type="text" /><br>
         <section>
